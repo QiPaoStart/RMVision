@@ -1,0 +1,13 @@
+train: ../train/robo/train/images
+val: ../train/robo/valid/images
+test: ../train/robo/test/images
+
+nc: 3
+names: ['OvalArmorBlue', 'OvalArmorRed', 'RoboMaster']
+
+roboflow:
+  workspace: purobocon
+  project: test-rm
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/purobocon/test-rm/dataset/1
